@@ -1,0 +1,86 @@
+@media  screen and (max-width: 1000px) {
+    p{
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+
+    .grid-3{
+        gap: 1rem;
+    }
+
+    .skills-right ul li {
+        font-size :0.9rem;
+    }
+}
+
+@media  screen and (max-width: 825px) {
+    /* berger */
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    /* navbar */
+    nav {
+        position: fixed;
+        width: 50%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        background: var(--primaryBackgroundColor);
+        border-left: 1px solid var(--primaryBackgroundColor);
+        z-index: 9;
+        transform: translateX(100%);
+
+    }
+    .hero-right img{
+        position: relative;
+        display: flex;
+        top: -150px;
+        width:200%;
+        right: 10.5rem;
+        
+        
+    }
+
+    .hero-left{
+        position: relative;
+        top: 120px;
+    }
+
+    .main-container{
+        bottom: 10px;
+    }
+
+    nav ul {
+        display: none;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+    .service {
+        padding: 1rem 0.5rem;
+        width: 270px;
+    }
+    .service p,h3 {
+        width: 250px;
+    }
+
+    .contact-right{
+        padding  : 3rem;
+        justify-content: center;
+    }
+
+ 
+}
+
+@media  screen and (max-width: 640px) {
+  
+}
